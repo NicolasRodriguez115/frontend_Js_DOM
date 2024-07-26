@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <link rel="stylesheet" href="hw.css">
+  <body>
+    <div>
+      <h1>Store</h1>
+      <input type="button" value="Get Products" id="getProducts" />
+      <div id="products"></div>
+    </div>
+    <div>
+      <h1 id="formTitle">User Input</h1>
+      <form action="">
+        <input type="text" placeholder="Your Name" id="userName" />
+        <input type="email" placeholder="Your Email" id="userEmail" />
+        <input type="text" placeholder="Write a message!" id="userMessage" />
+        <button type="submit" id="saveInput">Submit</button>
+      </form>
+    </div>
+    <br>
+    <div id="box" onclick="changeColor()">Click me to change color</div>
+    <div id="box1" onclick="underline()">
+      Click me to underline!
+    </div>
+    <div id="box2" onmouseover="highlight()">
+      Hover me to highlight!
+    </div>
+    <div id="box3" onclick="changeTextColor()">
+      Click me to change the color of my text!
+    </div>
+    <div id="box4" onclick="changeSize()">
+      Click me to send me to the start!
+    </div>
+
+    <script src="hw.js"></script>
+  </body>
+</html>

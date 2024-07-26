@@ -1,0 +1,23 @@
+.highlighted:hover {
+    background-color: yellow;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formTitle{
+    text-align: center;
+}
+
+
+
+.alignStart{
+    align-self: start;
+}
